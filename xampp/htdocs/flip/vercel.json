@@ -8,5 +8,9 @@
   ],
   "routes": [
     { "src": "/(.*)", "dest": "src/server.js" }
+  ],
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/upload", "destination": "/upload/index.html" }
   ]
 }
